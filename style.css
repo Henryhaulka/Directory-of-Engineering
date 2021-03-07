@@ -1,0 +1,38 @@
+* {
+  box-sizing: border-box;
+}
+
+nav {
+  background-color: rgb(255, 69, 1);
+}
+
+.navright {
+  width: 45%;
+  padding-top: 9px;
+}
+
+.henrex {
+  font-size: 1.5rem;
+}
+
+@media screen and (max-width: 767px) {
+  .logo {
+    text-align: center;
+    padding-bottom: 7px;
+  }
+
+  .navright {
+    width: 100%;
+    padding-top: 15px;
+  }
+
+  .navright span {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .navright {
+    width: 65%;
+  }
+}
