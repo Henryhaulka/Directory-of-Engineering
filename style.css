@@ -15,6 +15,83 @@ nav {
   font-size: 1.5rem;
 }
 
+.design {
+  background: linear-gradient(rgb(0, 0, 0, 0.7), rgb(0, 0, 255, 0.7)),
+    url("https://www.merchantstimes.com/wp-content/uploads/2020/04/enginering.jpg");
+  position: relative;
+  background-size: cover;
+  height: 500px;
+}
+
+.sub-design {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.sub-design h4 {
+  color: white;
+  font-size: 1.6rem;
+}
+
+.sub-design form {
+  background-color: rgb(255, 255, 255, 0.7);
+  border-radius: 5px;
+}
+
+.form-container {
+  width: 100%;
+  padding: 50px;
+}
+
+form input {
+  width: 75%;
+}
+
+form .btn {
+  background-color: rgb(255, 69, 1, 0.9);
+  width: 25%;
+}
+
+.button-work {
+  left: 40%;
+}
+
+.henrex1,
+.henrex2 {
+  color: rgb(255, 69, 1);
+}
+
+.henrex1 {
+  font-size: 1.5rem;
+}
+
+.sub-section {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-gap: 20px 50px;
+}
+
+.sub-text {
+  width: 75%;
+}
+
+.sub-section1 img {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+}
+.sub-section div {
+  padding: 10px;
+  text-align: center;
+}
+
+.sub-section h5 {
+  padding: 7px 0 7px 0;
+}
+
 @media screen and (max-width: 767px) {
   .logo {
     text-align: center;
@@ -29,10 +106,62 @@ nav {
   .navright span {
     display: none;
   }
+
+  .sub-design {
+    width: 100%;
+  }
+
+  .form-container {
+    width: 90%;
+    margin: auto;
+    padding: 20px;
+  }
+
+  form input {
+    width: 100%;
+    padding: 7px;
+  }
+
+  form .btn {
+    background-color: rgb(255, 69, 1, 0.9);
+    width: 100%;
+    margin-top: 10px;
+  }
+
+  .sub-section {
+    grid-template-columns: 1fr;
+  }
+
+  .sub-text {
+    width: 100%;
+    padding-bottom: 1.5rem;
+    text-align: center;
+    padding-top: 1.5rem;
+  }
+
+  .sub-section1 img {
+    width: 100%;
+    margin: auto;
+    padding-bottom: 20px;
+  }
+
+  .sub-design h4 {
+    color: white;
+    font-size: 1rem;
+    text-align: center;
+  }
+
+  .button-work {
+    left: 35%;
+  }
 }
 
 @media screen and (min-width: 768px) and (max-width: 1024px) {
   .navright {
     width: 65%;
+  }
+
+  .sub-design {
+    width: 90%;
   }
 }
