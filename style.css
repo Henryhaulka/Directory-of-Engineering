@@ -165,7 +165,8 @@ main label {
 
 .sub-section2 img {
   width: 300px;
-  height: 300px;
+  height: 400px;
+  border-radius: 35px 35px 0 0;
 }
 
 .sub-section div {
@@ -239,7 +240,7 @@ main label {
 
   .grid1 {
     grid-template-columns: 1fr;
-    grid-gap: 20px;
+    grid-gap: 40px 20px;
   }
 
   form input {
