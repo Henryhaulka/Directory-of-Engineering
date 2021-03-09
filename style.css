@@ -124,6 +124,29 @@ form .btn {
   width: 20%;
 }
 
+.form2 {
+  width: 95%;
+  margin: auto;
+  padding-bottom: 2rem;
+}
+
+.button1 {
+  width: 25%;
+  margin: 10px;
+  padding-top: 19px;
+}
+
+.grid1 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-gap: 40px 20px;
+}
+
+main label {
+  font-weight: bold;
+}
+
 .sub-footer4 p {
   padding: 0;
   margin: 0;
@@ -212,6 +235,11 @@ form .btn {
   .end {
     text-align: center;
     padding-top: 10px;
+  }
+
+  .grid1 {
+    grid-template-columns: 1fr;
+    grid-gap: 20px;
   }
 
   form input {
