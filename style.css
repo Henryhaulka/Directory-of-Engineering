@@ -16,7 +16,8 @@ nav {
 }
 
 .design {
-  background: linear-gradient(rgb(0, 0, 0, 0.7), rgb(0, 0, 255, 0.7)),
+  background:
+    linear-gradient(rgb(0, 0, 0, 0.7), rgb(0, 0, 255, 0.7)),
     url("https://www.merchantstimes.com/wp-content/uploads/2020/04/enginering.jpg");
   position: relative;
   background-size: cover;
