@@ -143,6 +143,30 @@ form .btn {
   grid-gap: 40px 20px;
 }
 
+.tractor {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+  grid-gap: 15px 15px;
+  width: 90%;
+  margin: auto;
+}
+
+.button-right {
+  grid-column: 2;
+  margin-left: auto;
+}
+
+.bottom-info {
+  grid-column: 1/3;
+  text-align: center;
+}
+
+.tractor div {
+  border: 1px solid lightgrey;
+  padding: 7px;
+}
+
 main label {
   font-weight: bold;
 }
@@ -198,6 +222,10 @@ main label {
     padding-top: 15px;
   }
 
+  .tractor div {
+    margin: 10px;
+  }
+
   .navright span {
     display: none;
   }
@@ -243,6 +271,17 @@ main label {
     grid-gap: 40px 20px;
   }
 
+  .button-right {
+    grid-column: 1;
+    margin-left: 10px;
+    width: 30%;
+  }
+
+  .bottom-info {
+    grid-column: 1;
+    text-align: center;
+  }
+
   form input {
     width: 100%;
     padding: 7px;
@@ -253,8 +292,13 @@ main label {
     margin-top: 10px;
   }
 
-  .sub-section {
+  .sub-section,
+  .tractor {
     grid-template-columns: 1fr;
+  }
+
+  .tractor {
+    width: 90%;
   }
 
   .sub-footer4 {
