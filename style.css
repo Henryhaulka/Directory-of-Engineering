@@ -59,7 +59,8 @@ form .btn {
 }
 
 .henrex1,
-.henrex2 {
+.henrex2,
+.henrex3 {
   color: rgb(255, 69, 1);
 }
 
@@ -78,11 +79,73 @@ form .btn {
   width: 75%;
 }
 
+.sub-footer1 {
+  background-color: black;
+}
+
+.sub-footer2 {
+  width: 80%;
+  margin: auto;
+  display: flex;
+}
+
+.sub-footer3 {
+  border: 1px solid grey;
+  border-radius: 50%;
+  background-color: black;
+  color: white;
+}
+
+.sub-footer4 {
+  width: 45%;
+  border-top: 1px solid grey;
+  border-bottom: 1px solid grey;
+  padding: 0;
+  margin: 0;
+  height: 45px;
+  margin-top: 7px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.sub-footer4 a {
+  color: white;
+}
+
+.footer1 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  color: white;
+  grid-gap: 2rem;
+  margin-top: 3rem;
+  padding: 1rem;
+}
+
+.icons {
+  width: 20%;
+}
+
+.sub-footer4 p {
+  padding: 0;
+  margin: 0;
+  align-self: center;
+}
+
+.sub-footer3 i {
+  padding: 10px;
+}
+
 .sub-section1 img {
   width: 300px;
   height: 300px;
   border-radius: 50%;
 }
+
+.sub-section2 img {
+  width: 300px;
+  height: 300px;
+}
+
 .sub-section div {
   padding: 10px;
   text-align: center;
@@ -90,6 +153,15 @@ form .btn {
 
 .sub-section h5 {
   padding: 7px 0 7px 0;
+}
+
+.sub-footer4 a:hover {
+  color: white;
+  text-decoration: none;
+}
+
+.henrex3:hover {
+  color: rgb(255, 69, 1);
 }
 
 @media screen and (max-width: 767px) {
@@ -107,8 +179,13 @@ form .btn {
     display: none;
   }
 
+  .design {
+    height: 420px;
+  }
+
   .sub-design {
     width: 100%;
+    top: 45%;
   }
 
   .form-container {
@@ -117,6 +194,26 @@ form .btn {
     padding: 20px;
   }
 
+  .footer1 {
+    grid-template-columns: 1fr;
+    grid-gap: 10px;
+    margin-top: 1rem;
+  }
+
+  .sub-footer2 {
+    width: 100%;
+    display: block;
+    position: relative;
+  }
+
+  .icons {
+    width: 100%;
+  }
+
+  .end {
+    text-align: center;
+    padding-top: 10px;
+  }
   form input {
     width: 100%;
     padding: 7px;
@@ -132,6 +229,18 @@ form .btn {
     grid-template-columns: 1fr;
   }
 
+  .sub-footer4 {
+    flex-wrap: wrap;
+    width: 100%;
+  }
+
+  .sub-footer3 {
+    border: none;
+    position: absolute;
+    top: 10px;
+    left: 40%;
+  }
+
   .sub-text {
     width: 100%;
     padding-bottom: 1.5rem;
@@ -145,6 +254,15 @@ form .btn {
     padding-bottom: 20px;
   }
 
+  .sub-section2 {
+    padding-bottom: 15px;
+  }
+
+  .sub-section2 img {
+    width: 100%;
+    height: 100%;
+  }
+
   .sub-design h4 {
     color: white;
     font-size: 1rem;
@@ -153,6 +271,10 @@ form .btn {
 
   .button-work {
     left: 35%;
+  }
+
+  .sub-footer4:nth-child(1) {
+    margin-top: 3rem;
   }
 }
 
@@ -163,5 +285,9 @@ form .btn {
 
   .sub-design {
     width: 90%;
+  }
+
+  .icons {
+    padding-top: 10px;
   }
 }
