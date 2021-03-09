@@ -16,7 +16,7 @@ nav {
 }
 
 .design {
-  background: 
+  background:
     linear-gradient(rgb(0, 0, 0, 0.7), rgb(0, 0, 255, 0.7)),
     url("https://www.merchantstimes.com/wp-content/uploads/2020/04/enginering.jpg");
   position: relative;
@@ -215,7 +215,7 @@ form .btn {
     text-align: center;
     padding-top: 10px;
   }
-  
+
   form input {
     width: 100%;
     padding: 7px;
