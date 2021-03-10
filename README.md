@@ -1,14 +1,14 @@
 # Capstone-Html-Css
 
 ![screenshot](img/home-pc.png)
-![screenshot](img/home-mobile.png)
+
 ![screenshot](img/search-pc.png)
-![screenshot](img/search-mobile.png)
+
 ![screenshot](img/detail-pc.png)
-![screenshot](img/detail-mobile.png)
 
 
-This is Course Directory of Engineering Courses (Specializations) for prospective Undergraduate students so they can have the required information for gaining admission to studying Engineering courses of their choice in Nigeria.
+
+This is Course Directory of Engineering Courses (Specializations) for prospective Undergraduate students so they can have the required information for gaining admission to studying Engineering courses of their choice in Nigeria.The website has Three pages namely The Main page, The Search page and The Detail page which are fully responsive on Desktop, Tablet and Mobile Phone screensizes.
 
 ## Built With
 

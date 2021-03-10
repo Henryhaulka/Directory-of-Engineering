@@ -2,8 +2,9 @@
   box-sizing: border-box;
 }
 
-nav {
-  background-color: rgb(255, 69, 1);
+nav,
+.base-color1 {
+  background-color: #e27f66;
 }
 
 .navright {
@@ -61,7 +62,7 @@ form .btn {
 .henrex1,
 .henrex2,
 .henrex3 {
-  color: rgb(255, 69, 1);
+  color: #e27f66;
 }
 
 .henrex1 {
@@ -77,6 +78,14 @@ form .btn {
 
 .sub-text {
   width: 75%;
+}
+
+.base-color2 {
+  background-color: #99a4a5;
+}
+
+.base-color3 {
+  background-color: #519cd8;
 }
 
 .sub-footer1 {
@@ -129,6 +138,7 @@ form .btn {
   width: 95%;
   margin: auto;
   padding-bottom: 2rem;
+  display: flex;
 }
 
 .button1 {
@@ -233,6 +243,10 @@ main label {
 
   .design {
     height: 420px;
+  }
+
+  .form2 {
+    flex-direction: column;
   }
 
   .sub-design {
