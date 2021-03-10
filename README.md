@@ -1,10 +1,10 @@
 # Capstone-Html-Css
 
-![screenshot](img/home-pc.png)
+![screenshot](img/home-pc1.png)
 
-![screenshot](img/search-pc.png)
+![screenshot](img/search-pc1.png)
 
-![screenshot](img/detail-pc.png)
+![screenshot](img/detail-pc1.png)
 
 
 
