@@ -8,7 +8,7 @@
 
 
 
-This is Course Directory of Engineering Courses (Specializations) for prospective Undergraduate students so they can have the required information for gaining admission to studying Engineering courses of their choice in Nigeria.The website has Three pages namely The Main page, The Search page and The Detail page which are fully responsive on Desktop, Tablet and Mobile Phone screensizes.
+This is a Directory of Engineering Courses (Specializations) for prospective Undergraduate students so they can have the required information for gaining admission to studying Engineering courses of their choice in Nigeria.The website has Three pages namely The Main page, The Search page and The Detail page which are fully responsive on Desktop, Tablet and Mobile Phone screensizes.
 
 ## Built With
 
